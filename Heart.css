@@ -257,3 +257,37 @@
     background-color: #fc9d9d;
     color: #a10000;
   }
+
+body {
+  font-family: "Muli", sans-serif;
+}
+
+.footer {
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  color: #ea4c89;
+  text-decoration: none;
+  text-align: left;
+  font-weight: bold;
+  font-size: 10px;
+}
+.footer span {
+  font-size: 12px;
+}
+.footer a {
+  font-weight: bold;
+  font-size: 10px;
+  color: #ea4c89;
+  text-decoration: underline;
+}
+.footer a:hover {
+  text-decoration: none;
+}
+.footer .dribble img {
+  max-width: 100%;
+  width: 26px;
+  position: relative;
+  top: -2px;
+  vertical-align: middle;
+}
